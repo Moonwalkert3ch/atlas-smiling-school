@@ -10,7 +10,7 @@ header {
 	
 }
 
-{
+* {
 	font-family: 'Source Sans Pro' !important;
 	
 }
@@ -97,13 +97,13 @@ header a:hover {
 		background-position: 45% 50%;
 	}
 
-	.hamburger {
+	.hamburgerMenu {
 		max-height: 0px;
 		overflow: hidden;
 		transition: max-height 0.5s ease-in-out;
 	}
 	
-	#nav-toggle:checked ~ .hamburger {
+	#nav-toggle:checked ~ .hamburgerMenu {
 		max-height: 100vh;
 		overflow: hidden;
 	}
