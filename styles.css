@@ -7,12 +7,12 @@ header {
 .logoHeader {
 	width: auto;
 	height: 30px;
-	
+
 }
 
 * {
 	font-family: 'Source Sans Pro' !important;
-	
+
 }
 
 @media (max-width: 1200px) {
@@ -31,17 +31,19 @@ header {
 }
 
 header a:hover {
-    text-decoration: none;
+	text-decoration: none;
 	border-bottom: 1px solid white;
-	color:  #c371ff !important;
+	color: #c371ff !important;
 }
+
 .btn {
 	background-color: #c271ff !important;
 	border-color: #c271ff !important;
 	font-size: 14px;
 }
 
-.btn:hover, .btn:active {
+.btn:hover,
+.btn:active {
 	background-color: #c271ff !important;
 	border-color: #c271ff !important;
 	opacity: 0.9;
@@ -102,8 +104,8 @@ header a:hover {
 		overflow: hidden;
 		transition: max-height 0.5s ease-in-out;
 	}
-	
-	#nav-toggle:checked ~ .hamburgerMenu {
+
+	#nav-toggle:checked~.hamburgerMenu {
 		max-height: 100vh;
 		overflow: hidden;
 	}
@@ -112,53 +114,77 @@ header a:hover {
 		font-size: 4rem;
 	}
 
-    .users .h5 {
+	.users .h5 {
 		font-size: 1.1rem;
 	}
 }
 
-.bg-violet{
+.bg-violet {
 	background-color: #c271ff !important;
 }
 
 .video-card {
-    width: 250px;
+	width: 250px;
 }
 
 img.circle-thumb {
-    width: 150px;
+	width: 150px;
 	height: 150px;
 
 }
 
 img.logo {
-    height: 30px;
+	height: 30px;
 }
+
 img.star {
-    height: 15px;
-    width: 15px;
+	height: 15px;
+	width: 15px;
 }
 
 img.circle-thumb-small {
-    width: 50px;
-    height: 50px;
+	width: 50px;
+	height: 50px;
 }
+
 #search-button {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .bg-sectionfree {
 	background-color: #071629;
 }
 
-.social > svg {
-    fill: white;
+.social>svg {
+	fill: white;
 }
 
 .pricing {
 	background-image: url(images/pic_2.jpg) !important;
 	background-repeat: no-repeat;
 	background-size: cover;
-	
+
 }
 
+.courses {
+	background-image: url(images/pic_3.jpg) !important;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.courseText {
+	font-size: 32px;
+	font-family: 'Coiny' !important;
+	font-weight: 400;
+}
+
+.search-icon {
+	font-family: 'holberton_school-icon';
+	font-size: 15px;
+}
+
+.searchbar {
+	background-color: #d195ff;
+	border-radius: 3px;
+}
